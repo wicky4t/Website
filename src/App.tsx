@@ -380,7 +380,7 @@ function App() {
           <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="mobileGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(139, 92, 246, 0.15)" strokeWidth="0.5"/>
+                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(139, 92, 246, 0.15)" strokeWidth="0.2"/>
               </pattern>
               <filter id="mobileGlow">
                 <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
@@ -430,7 +430,7 @@ function App() {
           <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="contactGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(59, 130, 246, 0.15)" strokeWidth="0.5"/>
+                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(59, 130, 246, 0.15)" strokeWidth="0.1"/>
               </pattern>
               <filter id="contactGlow">
                 <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
@@ -468,7 +468,7 @@ function App() {
           <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="footerGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(59, 130, 246, 0.1)" strokeWidth="0.5"/>
+                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(59, 130, 246, 0.1)" strokeWidth="0"/>
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#footerGrid)"/>
