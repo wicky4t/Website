@@ -272,7 +272,7 @@ function App() {
                 </feMerge>
               </filter>
             </defs>
-           <rect width="100%" height="100%" fill="url(#smallGrid)" filter="url(#gridGlow)" opacity="0.1" />
+           <rect width="100%" height="100%" fill="url(#smallGrid)" filter="url(#gridGlow)" opacity="0.5" />
           </svg>
         </div>
       <FloatingIcons />
