@@ -261,7 +261,7 @@ function App() {
         <div className="absolute inset-0">
           <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
-              <pattern id="smallGrid" width="50" height="50" patternUnits="userSpaceOnUse">
+              <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
                 <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(59, 130, 246, 0.15)" strokeWidth="0.7"/>
               </pattern>
               <filter id="gridGlow">
