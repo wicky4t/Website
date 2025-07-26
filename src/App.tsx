@@ -310,7 +310,7 @@ function App() {
             {/* Showreel */}
             <div className="max-w-6xl mx-auto">
               <div className="relative z-10 backdrop-blur-xl border border-white/10 rounded-3xl p-6 md:p-12 shadow-2xl bg-gradient-to-br from-[#1e3a8a]/20 via-[#1e40af]/15 to-[#3730a3]/20">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 md:mb-8 text-blue-300 px-10 text-glow-purple">Showreel</h2>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 md:mb-8 text-blue-600 px-10 text-glow-purple">Showreel</h2>
                 <VideoPlayer
                   src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
                   poster="https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1200"
