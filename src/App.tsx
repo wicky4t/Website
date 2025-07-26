@@ -195,6 +195,16 @@ function App() {
       src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
       poster: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800",
       title: "Short Film"
+    },
+    {
+      src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+      poster: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Brand Campaign"
+    },
+    {
+      src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      poster: "https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Cinematic Trailer"
     }
   ];
 
@@ -218,6 +228,26 @@ function App() {
       src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
       poster: "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=400",
       title: "Mobile Story"
+    },
+    {
+      src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+      poster: "https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&cs=tinysrgb&w=400",
+      title: "Product Review"
+    },
+    {
+      src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      poster: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400",
+      title: "Event Promo"
+    },
+    {
+      src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      poster: "https://images.pexels.com/photos/1181670/pexels-photo-1181670.jpeg?auto=compress&cs=tinysrgb&w=400",
+      title: "Tutorial Video"
+    },
+    {
+      src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      poster: "https://images.pexels.com/photos/1181669/pexels-photo-1181669.jpeg?auto=compress&cs=tinysrgb&w=400",
+      title: "Brand Story"
     }
   ];
 
@@ -378,7 +408,7 @@ function App() {
                 Vertical content optimized for mobile platforms and social media
               </p>
             </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 max-w-6xl mx-auto">
               {portraitVideos.map((video, index) => (
                 <VideoPlayer
                   key={index}
