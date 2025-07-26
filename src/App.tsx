@@ -261,7 +261,7 @@ function App() {
         <div className="absolute inset-0">
           <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
-              <pattern id="largeGrid" width="50" height="50" patternUnits="userSpaceOnUse">
+              <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
                 <path d="M 0 0 L 20 0 L 20 20 L 0 20 Z" fill="none" stroke="rgba(59, 130, 246, 0.15)" strokeWidth="1"/>
               </pattern>
               <filter id="gridGlow">
@@ -272,7 +272,7 @@ function App() {
                 </feMerge>
               </filter>
             </defs>
-           <rect width="100%" height="100%" fill="url(#smallGrid)" filter="url(#gridGlow)" opacity="0.7" />
+           <rect width="100%" height="100%" fill="url(#smallGrid)" filter="url(#gridGlow)" opacity="0.5" />
           </svg>
         </div>
       <FloatingIcons />
