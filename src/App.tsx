@@ -265,7 +265,7 @@ function App() {
                 <path d="M 0 0 L 20 0 L 20 20 L 0 20 Z" fill="none" stroke="rgba(59, 130, 246, 0.15)" strokeWidth="2"/>
               </pattern>
               <filter id="gridGlow">
-                <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+                <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
                 <feMerge> 
                   <feMergeNode in="coloredBlur"/>
                   <feMergeNode in="SourceGraphic"/>
