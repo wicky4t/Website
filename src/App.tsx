@@ -475,7 +475,7 @@ function App() {
           </svg>
         </div>
         <div className="max-w-6xl mx-auto text-center text-gray-400">
-          <p className="text-sm md:text-base text-glow-gray relative z-10">&copy; 2024 Video Editor Portfolio. All rights reserved.</p>
+          <p className="text-sm md:text-base text-glow-gray relative z-10">&copy; 2025 Aamir Naqvi Portfolio. All rights reserved.</p>
         </div>
       </footer>
     </div>
